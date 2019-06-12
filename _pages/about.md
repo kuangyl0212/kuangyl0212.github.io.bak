@@ -5,4 +5,4 @@ sitemap: false
 permalink: /about/
 ---
 
-about
+> 七八粒星天外 两三点雨山前
