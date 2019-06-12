@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
+  - title: "归档"
     url: /year-archive/
-  - title: "Categories"
+  - title: "分类"
     url: /categories/
-  - title: "Tags"
+  - title: "标签"
     url: /tags/
   - title: "Collections"
     url: /collection-archive/
