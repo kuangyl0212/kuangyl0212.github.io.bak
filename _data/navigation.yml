@@ -5,7 +5,7 @@ main:
     url: /categories/
   - title: "标签"
     url: /tags/
-  - title: "Collections"
+  - title: "收藏"
     url: /collection-archive/
   - title: "关于"
     url: /about
