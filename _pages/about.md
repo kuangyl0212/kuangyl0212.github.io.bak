@@ -16,6 +16,11 @@ permalink: /about/
 ### 关于作者
 莫怀远
 
+计算机专业硕士
+
+喜欢编程，做过前端，现在主要做机器学习
+
+
 [jekyll-home]: https://jekyllrb.com/
 [gh-home]: https://pages.github.com/
 [mm-home]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
