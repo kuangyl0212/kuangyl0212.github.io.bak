@@ -1,6 +1,7 @@
 ---
-title: "关于"
+title: ""
 excerpt: "about"
+layout: single
 sitemap: false
 permalink: /about/
 ---
