@@ -153,7 +153,7 @@ author:
   name             : "莫怀远"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "悟已往之不谏 知来者之可追"
-  location         : "China"
+  location         : # "China"
   email            :
   links:
     - label: "Email"
