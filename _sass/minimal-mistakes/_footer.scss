@@ -21,6 +21,9 @@
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
   background-color: $footer-background-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   footer {
     @include clearfix;
@@ -29,6 +32,9 @@
     margin-top: 2em;
     max-width: 100%;
     padding: 0 1em 2em;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -62,6 +68,9 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   li {
