@@ -2,10 +2,13 @@
 layout: single
 title:  "Numpy备忘录"
 date:   2018-09-12 19:54:42 +0800
-excerpt: 矩阵创建 矩阵操作 矩阵运算
+excerpt: 矩阵创建、操作、运算
 categories: 数据分析
 tags: numpy
 toc: true
+header:
+   overlay_image: /assets/img/data-science.jpeg
+   overlay_filter: 0.4
 ---
 
 ### 一、矩阵创建
