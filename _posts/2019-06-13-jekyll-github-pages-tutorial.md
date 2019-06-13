@@ -57,7 +57,7 @@ tags:
     yyyy-mm-dd-Blog-Title.textile
     ```
     注意yyyy表示年份，4位数字，mm和dd分别表示月和日，2位数字。从后缀名可以看出，jekyll支持两种文档格式：Markdown和Textile。
-    每一篇博客必须以一段YAML头信息开始，之后你就可以用Markdown的方式写博客了。
+    每一篇博客必须以一段YAML头信息开始，之后你就可以用Markdown的方式写博客了，不熟悉Markdown语法的话可以参考[这里](https://markdown.tw)，很简单的。
     常用的YAML头信息字段如下：
     ```yml
     layout: single  # 注意，数星使用的主题的使用的single作为博客的layout而不是post
