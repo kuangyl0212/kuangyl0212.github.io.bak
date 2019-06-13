@@ -12,7 +12,7 @@
 
 在repo的setting选项中修改Repository name为：<你的github用户名>.github.io. 以便你的博客可以在你的github.io的域名下访问，访问地址为：https://your-github-name.github.io
     
-![renamm repo]({{ site.url }}/assets/img/rename-repo.png)
+![renamm repo](assets/img/rename-repo.png)
 
 ### 3. 修改配置文件中必要的字段
     
@@ -46,7 +46,7 @@ analytics:
 
 其他字段按需修改。修改完成以后，如果是在github网页上修改可以直接commit，其他方式需要commit以后push到github。不知道什么是commit？你可能需要补补课了，推荐这个[教程](https://www.liaoxuefeng.com/wiki/896043488029600)。（注意，如果是以SSH协议clone到本地来修改的话，push需要添加你的SSH Key到你的github账号，教程里面也有相关内容。如果嫌麻烦可以在clone的时候改为HTTPS协议，如图，点击Use HTTPS）
 
-![ssh-https]({{site.url}}/assets/img/ssh-https.png)
+![ssh-https](assets/img/ssh-https.png)
 
 ### 4. 开始写博客
 
