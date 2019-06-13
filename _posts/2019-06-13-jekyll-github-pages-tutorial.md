@@ -8,19 +8,19 @@ tags:
     - "GitHub Pages"
 ---
 
-### 一、简单的方法
+## 一、简单的方法
 
-#### 1. ForkGitHub仓库
+### 1. ForkGitHub仓库
 
 在GitHub上fork这个[Repository][repo-link].（当然，首先你需要一个github账号）
 
-#### 2. 修改仓库名
+### 2. 修改仓库名
 
 在repo的setting选项中修改Repository name为：<你的github用户名>.github.io. 以便你的博客可以在你的github.io的域名下访问，访问地址为：https://your-github-name.github.io
     
 ![renamm repo]({{ site.url }}/assets/img/rename-repo.png)
 
-#### 3. 修改配置文件中必要的字段
+### 3. 修改配置文件中必要的字段
     
 配置文件为: __config.yml， 你可以直接在github网站上修改也可以下载github desktop或者clone到本地，修改完之后push到github
 
@@ -54,7 +54,7 @@ analytics:
 
 ![ssh-https]({{site.url}}/assets/img/ssh-https.png)
 
-#### 4. 开始写博客
+### 4. 开始写博客
 
 博客文件位于__posts目录下，一个文件代表一篇博客。文件名有讲究，合法的格式有两种：
 ```
@@ -83,7 +83,7 @@ toc: true   # 这是由主题提供的目录
 
 博客写完之后提交方式和提交配置文件修改一致，不再赘述。
 
-#### 5. 自定义
+### 5. 自定义
 
 数星使用的主题是[Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/)。请参考[文档](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)进行自定义。
 
