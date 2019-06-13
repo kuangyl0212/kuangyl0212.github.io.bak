@@ -1,6 +1,6 @@
 # 数星
 
-这是一个用[Jekyll][https://jekyllrb.com/] + [GitHub Pages][https://pages.github.com/] 搭建的个人博客，，使用主题[minimal-mistakes][https://mademistakes.com/work/minimal-mistakes-jekyll-theme/]
+这是一个用[Jekyll]（https://jekyllrb.com/） + [GitHub Pages]（https://pages.github.com/） 搭建的个人博客，，使用主题[minimal-mistakes]（https://mademistakes.com/work/minimal-mistakes-jekyll-theme/）
 
 下面简要介绍一下如何使用
 
