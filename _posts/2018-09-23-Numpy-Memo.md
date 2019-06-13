@@ -2,6 +2,7 @@
 layout: single
 title:  "Numpy备忘录"
 date:   2018-09-12 19:54:42 +0800
+excerpt: 矩阵创建 矩阵操作 矩阵运算
 categories: 数据分析
 tags: numpy
 toc: true
