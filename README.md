@@ -1,6 +1,6 @@
 # 数星
 
-这是一个用[Jekyll]（https://jekyllrb.com/） + [GitHub Pages]（https://pages.github.com/） 搭建的个人博客，，使用主题[minimal-mistakes]（https://mademistakes.com/work/minimal-mistakes-jekyll-theme/）
+这是一个使用[Jekyll][jekyll-home] + [GitHub Pages][gh-home] 搭建的个人博客，使用主题[minimal-mistakes][mm-home]
 
 下面简要介绍一下如何使用
 
@@ -81,5 +81,7 @@ toc: true   # 这是由主题提供的目录
 
 数星使用的主题是[Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/)。请参考[文档](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)进行自定义。
 
-
+[jekyll-home]: https://jekyllrb.com/
+[gh-home]: https://pages.github.com/
+[mm-home]: https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
 [repo-link]: https://github.com/kuangyl0212/kuangyl0212.github.io/fork
