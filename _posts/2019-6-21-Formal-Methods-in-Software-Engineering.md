@@ -95,3 +95,48 @@ tags:
     ![philosophers]({{site.url}}/assets/img/philosophers.png){: .align-center}
 
 3. **CSP**
+
+    CSP, Communicating Sequential Processes, 即通信顺序进程。CSP是一种描述并发系统的形式化语言。
+
+    **CSP 语法**
+    * Assignment primitive
+        - &lt;varible&gt; := &lt;expression&gt;
+        - Ex: x := e {variable x takes on the value of expression e}
+    * Output primitive
+        - &lt;destination process&gt; ! &lt;expression&gt;
+        - Ex: A ! e {output the value of expression e to process A}
+    * Input primitive
+        - &lt;source process&lt; ? &lt;variable&gt;
+        - Ex: B ? x {from process B input to var x}
+    * Concurrent excution
+        - [&lt;process&gt; \|\| &lt;process&gt; &lt;\|\| &lt;process&gt; ... &gt;]
+    * Iteration
+        - *[...]
+    * Dijkstra's Guarded Commands
+        - &lt;guard&gt; -> &lt;commands&gt;
+            * the guard may be a Boolean expression or a result of I/O.
+            * commands is a list of commands to be executed if the guard is true
+    * Conditional Commands
+        - [ &lt;guarded commands&gt; [] &lt;guarded commands&gt; ... ]
+
+    例子：生产者/消费者
+
+    ```
+    Producer::
+        Buf ! P
+    
+    Consumer::
+        Buf ! more();
+        Buf ? P
+
+    Buf::buffer:(0...9)
+        in, out:integer;
+        in := 0; out := 0;
+        *[
+            in < out + 10; Producer ? buffer(in mod 10) -> 
+                    in := in + 1
+         [] out < in; Consumer ? more() -> 
+                    Consumer ! buffer(out mod 10) ->
+                        out := out + 1
+        ]
+    ```
