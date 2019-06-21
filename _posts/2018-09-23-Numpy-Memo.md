@@ -3,7 +3,8 @@ layout: single
 title:  "Numpy备忘录"
 date:   2018-09-12 19:54:42 +0800
 excerpt: 矩阵创建、操作、运算
-categories: 数据分析
+categories: 
+   - Data-Science
 tags: numpy
 toc: true
 header:

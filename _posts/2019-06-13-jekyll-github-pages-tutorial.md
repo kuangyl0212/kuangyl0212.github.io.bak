@@ -2,7 +2,7 @@
 layout: single
 title: Jekyll + GitHub Pages 搭建博客教程
 date: 2019-06-13 17:18 +0800 
-categories: "教程"
+categories: "Tutorial"
 tags: 
     - "Jekyll"
     - "GitHub Pages"
