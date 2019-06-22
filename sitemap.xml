@@ -9,52 +9,57 @@
 
 <url>
   <loc>https://kuangyl0212.github.io/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://kuangyl0212.github.io/year-archive/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kuangyl0212.github.io/categories/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kuangyl0212.github.io/tags/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kuangyl0212.github.io/collection-archive/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kuangyl0212.github.io/about/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://kuangyl0212.github.io/%E6%95%99%E7%A8%8B/jekyll-github-pages-tutorial/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <loc>https://kuangyl0212.github.io/software-engineering/Formal-Methods-in-Software-Engineering/</loc>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://kuangyl0212.github.io/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/Numpy-Memo/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <loc>https://kuangyl0212.github.io/tutorial/jekyll-github-pages-tutorial/</loc>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kuangyl0212.github.io/data-science/Numpy-Memo/</loc>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kuangyl0212.github.io/Hello-World/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kuangyl0212.github.io/welcome-to-jekyll/</loc>
-  <lastmod>2019-06-13T13:14:45+00:00</lastmod>
+  <lastmod>2019-06-21T09:44:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
