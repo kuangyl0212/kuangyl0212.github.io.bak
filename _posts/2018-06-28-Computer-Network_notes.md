@@ -78,16 +78,16 @@ image: assets/images/2.jpg
 
     无线接入: 两大类:
 
-        - 无线局域网(wireless LAN) IEEE 802.11
-        - 广域无线接入网(wide-area wireless access network)
+     - 无线局域网(wireless LAN) IEEE 802.11
+     - 广域无线接入网(wide-area wireless access network)
     
 ##### 1.2.3 物理媒介
 
-    1. 双绞铜线(就是平常所见的网线)
-    2. 同轴电缆(电视信号线)
-    3. 光缆
-    4. 陆地无线电信道
-    5. 卫星无线电信道
+ 1. 双绞铜线(就是平常所见的网线)
+ 2. 同轴电缆(电视信号线)
+ 3. 光缆
+ 4. 陆地无线电信道
+ 5. 卫星无线电信道
    
 #### 1.3 网络核心
 
