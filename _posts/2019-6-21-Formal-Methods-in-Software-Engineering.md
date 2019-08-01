@@ -1,11 +1,12 @@
 ---
-layout: single
+layout: post
 title: 软件工程中的形式化方法小结
 date: 2019-06-13 17:18 +0800 
 categories: 
     - Software-Engineering
 tags: 
     - "Formal Methods"
+image: assets/images/4.jpg
 ---
 
 ## 什么是形式化方法？
@@ -37,7 +38,7 @@ tags:
 
     FSM(Finite State Machine)，是关于存储量有限的计算机的基本模型，也是许多形式化方法规格和验证技术的基础模型。
    
-    ![fsm]({{site.url}}/assets/img/fsm.png){: .align-center}
+    ![fsm]({{site.url}}/assets/images/fsm.png){: .align-center}
 
     有限状态机的形式化定义为一个五元组 $M = (Q, \Sigma, \delta, q_0, F)$，具体定义如下：
     1. $ Q = \\{ q_0, q_1,...,q_n \\} $, 有限状态集合。在任一确定时刻，FSM只能处于一个确定的状态$q_i$。
@@ -69,7 +70,7 @@ tags:
 
     Petri网是用来描述并发、异步、分布式软件系统的形式化方法。
 
-    ![petri]({{site.url}}/assets/img/petri.png){: .align-center}
+    ![petri]({{site.url}}/assets/images/petri.png){: .align-center}
 
     Petri网，顾名思义是一种有向图。既是图，就有顶点和边。Petri网有两种顶点，位置（Place）和变迁（Transition），位置在上图中用圆圈表示，变迁则用竖线表示。Petri网的边只能连接两个不同的顶点，要么从位置到变迁，要么从变迁到位置，换言之，Petri网是一个二部图。另外，上图中位置圆圈内的点是（令牌）Token，表示资源。
 
@@ -88,11 +89,11 @@ tags:
     下面是一个哲学家就餐的例子
 
     假设五位哲学家围坐在一张圆桌上，相邻哲学家共用一副筷子，如图所示
-    ![table]({{site.url}}/assets/img/table.png){: .align-center}
+    ![table]({{site.url}}/assets/images/table.png){: .align-center}
     每位哲学家共有两种状态：think和eat，一位进餐时需要同时获取左右两边的筷子，那么一个哲学家的情况表示成Petri网具有4个位置（两种状态和两边的餐具）和2个变迁（获取筷子和释放筷子）
-    ![one_philosopher]({{site.url}}/assets/img/one_philosopher.png){: .align-center}
+    ![one_philosopher]({{site.url}}/assets/images/one_philosopher.png){: .align-center}
     完整Petri网（初始状态，即五位哲学家均处于think状态）可表示为：
-    ![philosophers]({{site.url}}/assets/img/philosophers.png){: .align-center}
+    ![philosophers]({{site.url}}/assets/images/philosophers.png){: .align-center}
 
 3. **CSP**
 
