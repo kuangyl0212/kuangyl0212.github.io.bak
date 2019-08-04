@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "《计算机网络--自顶向下方法》读书笔记--第一章 计算机网络和因特网"
+title:  "计算机网络读书笔记"
 date:   2018-06-28 09:54:42 +0800
-categories: 
+categories:
     - "Computer-Networks"
 image: assets/images/2.jpg
 ---
