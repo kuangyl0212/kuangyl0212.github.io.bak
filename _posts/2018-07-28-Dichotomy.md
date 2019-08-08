@@ -1,7 +1,13 @@
 ---
 layout: post
 title: "一招搞定95%的二分算法题"
-date: 2018-07-28 19:27:34
+date: 2018-07-28 19:27:34 +0800
+
+categories: 
+    - Algorithms
+tags: 
+    - dichotomy
+image: assets/images/6.jpg
 ---
 
 ### 二分算法的本质
