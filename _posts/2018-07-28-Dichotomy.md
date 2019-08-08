@@ -81,3 +81,6 @@ mid = l + r + 1 >> 1;
 现在假设r = l + 1，也就是整个区间只有两个元素，如果采用下取整的除法（C++默认），
 那么得到的此时$$ mid = \lfloor\frac{l + r}{2}\rfloor = \lfloor\frac{2l + 1}{2}\rfloor = l $$，
 新的区间[mid, r]就是[l, r]，也就是说区间没有得到更新，算法将陷入死循环。
+
+声明
+> 本文所用的代码模板和思想均来源于[acwing](https://www.acwing.com)，版权归y总所有
