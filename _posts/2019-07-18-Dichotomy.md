@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "一招搞定95%的二分算法题"
-date: 2018-07-28 19:27:34 +0800
+date: 2019-07-18 19:27:34 +0800
 
 categories: 
     - Algorithms
@@ -35,18 +35,18 @@ image: assets/images/6.jpg
 对应这两种情况，代码有所差异。因此可以衍生出两个版本的代码模板：
 
 首先，对于两种情况而言，基本的二分写法是不变的，算法每次迭代去区间点，即
-```
-mid = (l + r) / 2
+```cpp
+int mid = (l + r) / 2
 ```
 然后检查中点是否满足性质(这里假设如果一个点是红色则check返回true)
-```
-check(mid)
+```cpp
+bool check(mid)
 ```
 1. 对于图一，也就是x属于红色的情况，这时如果check(mid) == true，那么mid处在红色区间，
 那么分界点将会在mid右边，但是考虑到分界点也处在红色区间，因此mid也有可能就是
-分界点，那么新的区间应该是[mid, r]；相应的如果check(mid)为false，那么说明mid处
+分界点，那么新的区间应该是[mid, r]；相应地，如果check(mid)为false，那么说明mid处
 在绿色区间，那么分界点应该在mid的左边，由于分界点x属于红色，那么mid不可能是分界点
-，因此心的区间是[l, mid+1]代码如下：
+，因此心的区间是[l, mid-1]代码如下：
 ```cpp
 while (l < r) {
     int mid = l + r + 1 >> 1;
