@@ -7,7 +7,6 @@ categories:
 image: assets/images/2.jpg
 ---
 
-#### 前言
 1. 什么是自顶下下方法？
     - 从应用层开始向下一直讲到物理层
 
