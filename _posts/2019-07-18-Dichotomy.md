@@ -7,6 +7,7 @@ categories:
     - Algorithms
 tags: 
     - dichotomy
+    - featured
 image: assets/images/6.jpg
 ---
 
